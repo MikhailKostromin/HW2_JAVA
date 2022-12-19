@@ -7,8 +7,9 @@ public class Task3 {
         nc = newColor;
         n = image.length;
         rc = image[sr][sc];
-        if (n == 0 || image == null)
+        if (n == 0 || image == null) {
             return null;
+        }
         m = image[0].length;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
